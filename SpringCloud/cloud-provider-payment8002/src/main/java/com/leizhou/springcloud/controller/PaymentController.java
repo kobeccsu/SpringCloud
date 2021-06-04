@@ -4,7 +4,6 @@ import com.leizhou.springcloud.entities.CommonResult;
 import com.leizhou.springcloud.entities.Payment;
 import com.leizhou.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
