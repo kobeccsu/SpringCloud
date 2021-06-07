@@ -41,4 +41,9 @@ public class PaymentController {
 
         return new CommonResult(444, "select fail", null);
     }
+
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB(){
+        return serverPort;
+    }
 }
